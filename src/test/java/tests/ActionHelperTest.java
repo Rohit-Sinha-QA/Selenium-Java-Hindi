@@ -11,7 +11,7 @@ public class ActionHelperTest extends BaseTest {
         ActionHelper action = new ActionHelper(driver);
         action.type(By.id("idtextbox1"), "Rohit");
         action.click(By.id("idradiobutton1"));
-        action.click(By.id("idcheckbox1"));
+        action.click(By.id("idcheckbox1"))
     }
 }
 
